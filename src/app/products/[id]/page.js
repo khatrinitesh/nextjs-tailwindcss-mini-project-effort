@@ -1,9 +1,12 @@
+"use client"
 import React, { useState, useEffect } from 'react';
-import { useRouter } from 'next/router';
+import { useParams, usePathname } from 'next/navigation';
 
 const ProductDetailsPage = () => {
-  const router = useRouter();
-  const { id } = router.query;
+
+    const {id} = useParams()
+    console.log(id)
+    
   const [loading, setLoading] = useState(false);
   const [productDetails, setProductDetails] = useState({});
   const baseurlPexels = 'https://api.pexels.com/v1/photos/';
