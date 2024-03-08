@@ -1,6 +1,6 @@
 import Banner from "@/components/banner";
-import CustomApp from "../repository/formvalidation/1/page";
-import TailwindCSSApp from "../tailwindcss/gridtemplatecolumns/1/page";
+import CustomApp from "../repository/animation/balloonpopping/1/page";
+import TailwindCSSApp from "../tailwindcss/scrollsnaptype/1/page";
 
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
       <Banner bannerStyle='bg-[red]' title="About" desc="Do id tempor laboris laboris sint cillum ad fugiat excepteur cupidatat do adipisicing mollit."/>
       <TailwindCSSApp/>
       <CustomApp/>
-    </div>
+    </div>  
   )
 }
 
