@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   console.log(pathname);
 
    // Define an array of valid routes for which Header and Footer should be displayed
-   const validRoutes = ["/", "/about", "/service", "/contact"];
+   const validRoutes = ["/", "/about", "/service","/products", "/contact"];
 
   
   return (

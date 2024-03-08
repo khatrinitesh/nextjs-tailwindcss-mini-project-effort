@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react';
-import { useParams, usePathname } from 'next/navigation';
+import { useParams } from 'next/navigation';
 
 const ProductDetailsPage = () => {
 
@@ -43,7 +43,7 @@ const ProductDetailsPage = () => {
     <div>
       <h1>Product Details</h1>
       <h3>{productDetails.width} - {productDetails.height}</h3>
-      <img src={productDetails.url} alt={`Product ${id}`} />
+      <img src={productDetails?.src?.original} alt={`Product ${id}`} className=""/>
     </div>
   );
 };
