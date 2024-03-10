@@ -1,0 +1,19 @@
+/* styles/Accordion.module.css */
+.accordion-item {
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+}
+
+.accordion-title {
+  padding: 12px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+
+.accordion-title.active {
+  background-color: #ddd;
+}
+
+.accordion-content {
+  padding: 12px;
+}
