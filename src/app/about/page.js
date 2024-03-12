@@ -5,11 +5,11 @@ import Banner from "@/components/banner";
 import CustomApp from "../repository/searchbar/1/page";
 
 const About = () => {
-  const items = [
-    { title: 'Item 1', desc: 'Content for item 1' },
-    { title: 'Item 2', desc: 'Content for item 2' },
-    // Add more items as needed
-  ];
+  // const items = [
+  //   { title: 'Item 1', desc: 'Content for item 1' },
+  //   { title: 'Item 2', desc: 'Content for item 2' },
+  //   // Add more items as needed
+  // ];
   
   return (
     <div className="mainContent clear-both">
