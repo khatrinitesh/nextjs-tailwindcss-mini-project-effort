@@ -71,7 +71,7 @@ const ProductListPage  = () => {
         return( 
           <div key={index}>
             <h3> width: {width} - height: {height}</h3>
-            <Link className="bg-blue-300 text-white text-[15px] px-[20px] py-[10px]" href={`/products/${id}`} target="_blank">View details</Link>
+            <Link className="bg-blue-300 text-white text-[15px] px-[20px] py-[10px]" href={`/products/${id}`} >View details</Link>
           </div>
         )
       })}
