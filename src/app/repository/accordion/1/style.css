@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* style.css */
 .accordion {
     width: 100%;
@@ -42,3 +43,24 @@
     max-height: 500px; /* Set an appropriate max height for the content */
   }
   
+=======
+/* styles/Accordion.module.css */
+.accordion-item {
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+}
+
+.accordion-title {
+  padding: 12px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+
+.accordion-title.active {
+  background-color: #ddd;
+}
+
+.accordion-content {
+  padding: 12px;
+}
+>>>>>>> 9186162d5538f4aacb32618d960d5df46bcb2a02

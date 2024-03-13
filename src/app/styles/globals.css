@@ -63,3 +63,13 @@
 scroll-snap-align: center;
 display: inline-block; /* Ensures proper alignment */
 }
+
+.mainContent{
+    min-height:calc(100vh - 120px);
+}
+
+footer{
+    background-color: #000;
+    color:#fff;
+    padding:10px;
+}
